@@ -307,6 +307,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				PREBINDING = NO;
 				PRODUCT_NAME = FMDB;
+				PUBLIC_HEADERS_FOLDER_PATH = include/$PRODUCT_NAME;
 			};
 			name = Debug;
 		};
@@ -319,6 +320,7 @@
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				PREBINDING = NO;
 				PRODUCT_NAME = FMDB;
+				PUBLIC_HEADERS_FOLDER_PATH = include/$PRODUCT_NAME;
 				ZERO_LINK = NO;
 			};
 			name = Release;
